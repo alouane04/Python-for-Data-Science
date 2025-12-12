@@ -2,6 +2,7 @@ class calculator:
     """Very small calculator wrapper expected to handle vector operations."""
 
     def __init__(self, data):
+        """Store an internal list of numeric values."""
         self.data = data
 
     def __add__(self, object) -> None:
